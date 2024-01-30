@@ -1,12 +1,14 @@
 import styled from "styled-components"
 
 const ContainerRodape = styled.footer`
+    position: fixed;
+    bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 88px;
+    height: 66px;
     width: 100%;
-    background-color: #000;
+    background-color: #000000dc;
     h3{
         color: #fff;
         font-size: 18px;
